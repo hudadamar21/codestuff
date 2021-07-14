@@ -172,8 +172,7 @@ Ok, Sekarang tailwind sudah siap digunakan.
 
 untuk memastikan mari kita coba masukan class tailwind dengan mengubah file {{< filename name="/src/App.vue" >}}
 
-{{< highlight vue  >}}
-
+```html
 <!-- /src/App.vue --> 
 <template>
   <div class="bg-blue-600 h-screen grid place-items-center">
@@ -189,8 +188,7 @@ export default {
 
 <style>
 </style>
-
-{{< /highlight >}}
+```
 
 jika tampilkan kalian seperti ini, berarti tailwindcss sudah bisa digunakan. congrats!! :D
 ![firstlook-tailwind](/content/firstlook-tailwind.png)
