@@ -1,0 +1,35 @@
+<div class="relative w-full bg-white dark:bg-fs-gray h-[max-content] md:h-40 flex flex-col md:flex-row shadow hover:shadow-md transition mb-3 md:mb-5 overflow-hidden rounded transition">
+  {{ if .Params.Thumbnail }}
+  <a href="{{.Permalink}}" class="w-full md:w-1/2 max-h-64 md:h-full">
+    <img 
+      src="{{ .Params.Thumbnail }}" 
+      class="w-full h-full bg-second/80 dark:bg-primary/80 transition object-cover object-center"
+      alt="{{ .Title }} image"
+    />
+  </a>
+  {{ end }}
+  
+
+  <div class="flex-grow p-4 md:pt-6 mb-7">
+    <a href="{{.Permalink}}">
+      <h1 class="text-xl font-semibold hover:text-second dark:hover:text-primary filter dark:brightness-125 hover:underline cursor-pointer transition">
+        {{ .Title }}
+      </h1>
+    </a>
+
+    <h5 class="text-gray-500 dark:text-gray-400 text-sm mb-3">{{ .Date.Format "2006-01-02" }}</h5>
+
+    <p class="mt-1 text-gray-600 dark:text-gray-200 text-sm line-clamp-2 cursor-default">
+      {{or .Params.description .Summary}}
+    </p>
+    
+  </div>
+  <div class="absolute bottom-2 right-3 text-gray-400 flex items-center gap-1">
+    <!-- svg -->
+    <svg class="w-4 h-4" viewBox="0 0 195 195" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M97.5 195C151.348 195 195 151.348 195 97.5C195 43.6522 151.348 0 97.5 0C43.6522 0 0 43.6522 0 97.5C0 151.348 43.6522 195 97.5 195ZM97.5 158C130.913 158 158 130.913 158 97.5C158 64.0868 130.913 37 97.5 37C64.0868 37 37 64.0868 37 97.5C37 130.913 64.0868 158 97.5 158Z" fill="currentColor"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M121 26H75V80H121V26ZM121 115H75V171H121V115Z" fill="currentColor"/>
+    </svg>
+    <small>hudadamar21</small>
+  </div>
+</div>

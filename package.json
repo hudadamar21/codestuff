@@ -1,0 +1,21 @@
+{
+  "name": "frontendstuff",
+  "version": "1.0.0",
+  "description": "My personal blog",
+  "scripts": {
+    "dev": "npx ./node_modules/tailwindcss/lib/cli.js -i ./static/css/tailwind.css -o ./static/css/styles.css --jit",
+    "watch": "npx ./node_modules/tailwindcss/lib/cli.js -i ./static/css/tailwind.css -o ./static/css/styles.css --jit -w",
+    "build": "npx ./node_modules/tailwindcss/lib/cli.js -i ./static/css/tailwind.css -o ./static/css/styles.css --jit --minify"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Huda Damar",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^2.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/line-clamp": "^0.2.1"
+  }
+}

@@ -1,0 +1,20 @@
+<div class="bg-white dark:bg-fs-gray shadow-md px-5 md:ml-5 py-10 mt-5 rounded">
+  <div>
+    {{- partial "sidebar/search-input.html" . -}}
+  </div>
+  <div class="mb-6">
+    <h1 class="text-xl font-medium mb-2">Populer Posts</h1>
+    <ul>
+      {{ range .Site.RegularPages }}
+        {{- partial "sidebar/list-article.html" . -}}
+      {{end}}
+    </ul>
+  </div>
+  <div>
+    <h1 class="text-xl font-medium mb-2">Category</h1>
+    <ul class="pl-5 text-fs-black dark:text-white">
+      <li class="hover:underline cursor-pointer">Articles</li>
+      <li class="hover:underline cursor-pointer">Tutorial</li>
+    </ul>
+  </div>
+</div>

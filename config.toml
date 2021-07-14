@@ -1,0 +1,20 @@
+baseURL = "https://huda-coba-hugo.netlify.app"
+languageCode = "id-ID"
+defaultContentLanguage = "id"
+title = "FrontendStuff"
+summaryLength = 10
+paginate = 5
+disqusShortname = "frontendstuff"
+pygmentsUseClasses=true
+
+[build]
+  writeStats = true
+
+[params]
+  Description = "Berbagai macam stuff-stuff untuk Frontend developer, semua stuff yang anda butuhkan sebagai frontend developer ada disini, ayo jelajahi FrontendStuff!!"
+
+# untuk mengganti struktur link
+# [permalinks]
+#   posts = ":slug"
+
+
