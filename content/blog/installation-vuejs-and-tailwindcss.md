@@ -131,7 +131,7 @@ module.exports = {
 pada file {{< filename name="tailwind.config.js" >}}, ubah option purge menjadi seperti ini.
 
 
-```javascript {hl_lines=[3]}
+{{< highlight javascript "hl_lines=3" >}}
   // tailwind.config.js
   module.exports = {
    purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
@@ -144,7 +144,7 @@ pada file {{< filename name="tailwind.config.js" >}}, ubah option purge menjadi 
     },
     plugins: [],
   } 
-```  
+{{< / highlight >}}
 
 &nbsp;
 ### Masukan Tailwind pada css file
@@ -172,7 +172,7 @@ Ok, Sekarang tailwind sudah siap digunakan.
 
 untuk memastikan mari kita coba masukan class tailwind dengan mengubah file {{< filename name="/src/App.vue" >}}
 
-```vue
+{{< highlight vue  >}}
 
 <!-- /src/App.vue --> 
 <template>
@@ -190,7 +190,7 @@ export default {
 <style>
 </style>
 
-```
+{{< /highlight >}}
 
 jika tampilkan kalian seperti ini, berarti tailwindcss sudah bisa digunakan. congrats!! :D
 ![firstlook-tailwind](/content/firstlook-tailwind.png)
