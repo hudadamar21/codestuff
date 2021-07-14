@@ -5,6 +5,7 @@ title = "FrontendStuff"
 summaryLength = 10
 paginate = 5
 disqusShortname = "frontendstuff"
+pygmentsCodefences = true 
 pygmentsUseClasses=true
 
 [params]
