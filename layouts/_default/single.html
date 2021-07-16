@@ -2,9 +2,9 @@
 
   <header class="pb-2 mb-5 border-b dark:border-fs-gray text-fs-black dark:text-white">
     <div class="mb-5">
-      <h1 class="text-4xl font-semibold">{{.Title}}</h1>
+      <h1 class="text-3xl md:text-4xl font-semibold">{{.Title}}</h1>
     </div>
-    <div class="flex items-baseline justify-between">
+    <div class="flex items-end justify-between">
       <a href="https://github.com/hudadamar21" class="flex items-center !no-underline" target="_blank">
         <div class="mr-2">
           <svg class="w-6 h-6" viewBox="0 0 195 195" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -14,7 +14,7 @@
         </div>
         <span class="mt-0.5">Huda Damar</span>
       </a>
-      <p class="text-fs-gray dark:text-gray-400">
+      <p class="text-gray-400">
         {{.Date.Format "Monday, Jan 2, 2006" }}
       </p>
     </div>
@@ -22,6 +22,7 @@
   {{ if isset .Params "thumbnail"}}
   <img
     id="thumbnail"
+    class="rounded"
     src="{{ .Params.thumbnail }}" 
     alt="{{.Title}}"
     onerror="imageNotRender()"
@@ -31,7 +32,7 @@
 
   {{- partial "toc.html" . -}}
 
-  <main id="content">
+  <main id="content" class="mt-10">
     {{.Content}}
   </main>
 

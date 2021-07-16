@@ -21,16 +21,18 @@ html {
 #content h3 {
   padding-top: 80px;
   margin-top: -80px;
-  @apply text-xl mb-3;
+  @apply text-xl mb-1;
 }
 
 #content h2::before, #content h3::before {
   content: '#';
-  @apply text-second dark:text-primary pr-2
+  @apply text-second dark:text-primary pr-2;
 } 
 
 #content p {
   margin-bottom: 5px;
+  letter-spacing: 1px;
+  @apply text-fs-gray dark:text-gray-100 tracking-wide mb-1.5 
 }
 
 #content a {
@@ -112,6 +114,7 @@ html {
 
 .wrapper {
   background: #000;
+  overflow: scroll;
 }
 
 .highlight {
@@ -131,9 +134,12 @@ html {
   @apply absolute right-2  text-second dark:text-primary opacity-30 transition duration-200 text-base rounded-md -mt-1 px-2 py-1 hover:cursor-pointer hover:text-white dark:hover:text-white;
 }
 
+.highlight .chroma {
+  overflow-x: auto;
+}
 
 .highlight .chroma .hl {
-  @apply border-l-4 border-second dark:border-primary w-full bg-fs-black block
+  @apply border-l-4 border-second dark:border-primary w-full bg-fs-black block;
 }
 
 /* Block Code END */

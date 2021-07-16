@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-  <h2 class="font-bolf text-2xl mb-5">Recent Posts: {{ title .Section }}</h2>  
+  <h2 class="font-bolf text-2xl mb-5">{{ title .Section }}</h2>  
   <ul>
     {{ range .Paginator.Pages }}
       {{- partial "components/card-article.html" . -}}

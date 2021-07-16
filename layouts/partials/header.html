@@ -1,21 +1,22 @@
 <nav class="w-full h-16 flex bg-transparent items-center justify-between fixed top-0 left-0 px-3 md:px-10 z-40 backdrop-filter backdrop-blur-md text-fs-black dark:text-white">
   <a href="/" class="relative flex items-center cursor-pointer">
     {{ if .IsPage }}
-    <div class="absolute -left-6 top-0 h-full flex items-center pt-1 text-second dark:text-primary">
+    <div class="text-second dark:text-primary">
       <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 17l-5-5m0 0l5-5m-5 5h12" />
+        
       </svg>
     </div>
     {{ end }}
-    <h1 class="font-medium  text-2xl ml-1 text-second dark:text-primary filter dark:brightness-110">
-      {{- partial "logo.html" . -}}
-    </h1>
+      <h1 class="font-medium text-2xl ml-1 text-second dark:text-primary filter dark:brightness-110">
+        {{- partial "logo.html" . -}}
+      </h1>
   </a>
   <ul class="flex gap-5">
-    <li class="border-b-4 border-transparent hover:border-primary cursor-pointer transition duration-100">
+    <li class="border-b-4 border-transparent hover:border-second dark:hover:border-primary cursor-pointer transition duration-100">
       <a class="font-semibold" href="/">Home</a>
     </li>
-    <li class="border-b-4 border-transparent hover:border-primary cursor-pointer transition duration-100">
+    <li class="border-b-4 border-transparent hover:border-second dark:hover:border-primary cursor-pointer transition duration-100">
       <a class="font-semibold" href="#">About</a>
     </li>
     <li>
@@ -31,6 +32,7 @@
         </div>
       </button>
     </li>
+    
     
   </ul>
 </nav>

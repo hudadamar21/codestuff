@@ -4,7 +4,7 @@
   </div>
   <div class="mb-6">
     <h1 class="text-xl font-medium mb-2">Populer Posts</h1>
-    <ul>
+    <ul class="rounded overflow-hidden">
       {{ range .Site.RegularPages }}
         {{- partial "sidebar/list-article.html" . -}}
       {{end}}
@@ -12,9 +12,26 @@
   </div>
   <div>
     <h1 class="text-xl font-medium mb-2">Category</h1>
-    <ul class="pl-5 text-fs-black dark:text-white">
-      <li class="hover:underline cursor-pointer">Articles</li>
-      <li class="hover:underline cursor-pointer">Tutorial</li>
+    <ul class="rounded overflow-hidden">
+      {{ range $key, $value := .Site.Taxonomies.categories }}
+        <li class="border-b border-white dark:border-fs-gray last:border-none">
+          <a href="{{ `/` | relLangURL}}{{ $key | urlize }}"
+            class="
+            block relative w-full h-[max-content]
+            transition overflow-hidden 
+            bg-gradient-to-r 
+            from-gray-50 to-second/5 hover:to-second/10
+            dark:from-fs-black/20 dark:to-black/20 dark:hover:to-black/30
+            cursor-pointer transition
+          ">
+            <div class="p-4">
+              <h1 class="font-medium text-gray-700 dark:text-white">
+                {{ $key | humanize }} ({{ len $value }})
+              </h1>
+            </div>
+          </a>
+        </li>
+      {{ end }}
     </ul>
   </div>
 </div>

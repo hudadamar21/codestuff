@@ -1,10 +1,11 @@
 {
-  "name": "frontendstuff",
+  "name": "codestuff",
   "version": "1.0.0",
-  "description": "My personal blog",
+  "description": "Code Stuff adalah Website yang menyediakan semua yang dibutuhkan developers dari Tutorial, Article, Code Snippet, dan lain-lain",
   "scripts": {
     "dev": "npx ./node_modules/tailwindcss/lib/cli.js -i ./static/css/tailwind.css -o ./static/css/styles.css --jit",
-    "watch": "npx ./node_modules/tailwindcss/lib/cli.js -i ./static/css/tailwind.css -o ./static/css/styles.css --jit -w",
+    "watch": "npx ./node_modules/tailwindcss/lib/cli.js -i ./static/css/tailwind.css -o ./static/css/styles.css --jit --watch",
+    "watcher": "npx tailwindcss -i ./static/css/tailwind.css -o ./static/css/styles.css --jit --watch",
     "build": "npx ./node_modules/tailwindcss/lib/cli.js -i ./static/css/tailwind.css -o ./static/css/styles.css --jit --minify"
   },
   "keywords": [
@@ -16,6 +17,7 @@
     "tailwindcss": "^2.2.4"
   },
   "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.2.1",
     "@tailwindcss/line-clamp": "^0.2.1"
   }
 }
