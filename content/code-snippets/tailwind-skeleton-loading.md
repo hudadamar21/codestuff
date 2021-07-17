@@ -1,18 +1,20 @@
 ---
 title: "Tailwind Skeleton Loading"
 date: 2021-07-16T17:54:14+07:00
-description: "membuat skeleton loading menggunakan tailwindcss"
+description: "Membuat skeleton loading menggunakan tailwindcss"
 draft: false
 toc: false
 keyword: [tailwindcss, code-snippets, website, loading]
 thumbnail: "/images/code-snippets/tailwind-skeleton-loading.jpg"
 tags: [tailwindcss]
-categories: ["code-snippets"]
+categories: [code-snippets]
 ---
 
 
 ## Code Snippets - Tailwind Skeleton Loading
-Hei stuffer, apa kalian tahu apa itu skeleton loading?
+Hei stuffer, kali ini saya ingin share code snippet Skeleton Loading.
+
+Apa kalian tahu apa itu skeleton loading?
 
 Skeleton loading adalah efek loading yang berbentuk seperti kerangka konten, skeleton loading ini ditampilkan sebelum konten sebenarnya ditampilkan.
 
@@ -25,7 +27,7 @@ Ok langsung saja kita buat skeleton loadingnya menggunakan tailwindcss
 Jika kalian tidak tahu atau belum menggunakan tailwindcss, kalian dapat akses link dibawah ini:
 
 {{< link url="https://tailwindcss.com" >}}
-  TailwindCSS
+  https://tailwindcss.com
 {{< /link >}}
 
 &nbsp;

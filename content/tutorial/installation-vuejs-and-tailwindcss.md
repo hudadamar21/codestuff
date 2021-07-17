@@ -4,10 +4,10 @@ description: "Pada tahap ini kalian akan menginstall vuejs dan tailwindcss denga
 date: 2021-07-10T08:56:15+07:00
 draft: false
 toc: true
-keyword: ["tutorial", "vuejs", "tailwindcss"]
+keyword: [tutorial, vuejs, tailwindcss]
 thumbnail: "https://firebasestorage.googleapis.com/v0/b/saxtile.appspot.com/o/68eV1uG7dtXIzJ3lNqNphaT23op1%2FInstallation%20Tailwindcss%20jit%20m.png?alt=media&token=61d3848f-2710-45f5-8f0c-6cd6d646ae30"
-tags: ["tutorial", "vuejs", "tailwindcss"]
-categories: ["tutorial"]
+tags: [vuejs, tailwindcss]
+categories: [tutorial]
 ---
 
 <br/>
@@ -72,7 +72,7 @@ npm run dev
 
 &nbsp;
 ### First look Vuejs App
-![firstlook-vuejs](/content/firstlook-vuejs-app.png)
+![firstlook-vuejs](/images/tutorial/firstlook-vuejs-app.png)
 
 
 ## Install Tailwindcss
@@ -185,7 +185,7 @@ export default {
 ```
 
 jika tampilkan kalian seperti ini, berarti tailwindcss sudah bisa digunakan. congrats!! :D
-![firstlook-tailwind](/content/firstlook-tailwind.png)
+![firstlook-tailwind](/images/tutorial/firstlook-tailwind.png)
 
 &nbsp;
 ## Kesimpulan
