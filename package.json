@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "npx ./node_modules/tailwindcss/lib/cli.js -i ./static/css/tailwind.css -o ./static/css/styles.css --jit",
     "watch": "npx ./node_modules/tailwindcss/lib/cli.js -i ./static/css/tailwind.css -o ./static/css/styles.css --jit --watch",
-    "watcher": "npx tailwindcss -i ./static/css/tailwind.css -o ./static/css/styles.css --jit --watch",
+    "commit": "git add . && git commit -m",
     "build": "npx ./node_modules/tailwindcss/lib/cli.js -i ./static/css/tailwind.css -o ./static/css/styles.css --jit --minify"
   },
   "keywords": [

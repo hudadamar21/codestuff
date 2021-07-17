@@ -41,24 +41,14 @@
       <!-- Categories and Tags -->
       <div class="flex gap-1 max-w-[70%]">
         <ul class="flex gap-1 flex-wrap">
-          {{ range (.GetTerms "categories") }}
-            <li>
-              <a
-                class="text-xs bg-second dark:bg-primary/90 hover:brightness-90 text-white p-1 rounded"
-                href="{{ .Permalink }}"
-              >
-                {{ .LinkTitle }}
-              </a>
+          {{ range $category := .Params.Categories }}
+            <li class="text-xs bg-second dark:bg-primary/90 cursor-default text-white p-1 rounded">
+              {{ $category }}
             </li>
           {{ end }}
-          {{ range (.GetTerms "tags") }}
-            <li>
-              <a
-                class="text-xs bg-second dark:bg-primary/90 hover:brightness-90 text-white p-1 rounded"
-                href="{{ .Permalink }}"
-              >
-                {{ .LinkTitle }}
-              </a>
+          {{ range $tag := .Params.Tags }}
+            <li class="text-xs bg-second dark:bg-primary/90 cursor-default text-white p-1 rounded">
+              {{ $tag }}
             </li>
           {{ end }}
         </ul>
