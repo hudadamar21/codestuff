@@ -1,4 +1,4 @@
-baseURL = "https://codestuff.netlify.app"
+baseURL = "https://codestuff.vercel.app"
 languageCode = "id-ID"
 defaultContentLanguage = "id"
 title = "Code Stuff | All Stuff For Developers"
