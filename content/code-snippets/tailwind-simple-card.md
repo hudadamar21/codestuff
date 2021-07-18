@@ -3,7 +3,7 @@ title: "Tailwind Simple Card"
 date: 2021-07-16T17:54:14+07:00
 description: "Membuat simple card menggunakan tailwindcss"
 draft: false
-toc: false
+toc: true
 keyword: [tailwindcss, code-snippets, website, card]
 thumbnail: "/images/code-snippets/tailwind-simple-card.png"
 tags: [tailwindcss]
@@ -57,6 +57,14 @@ wrapper untuk membungkus card agar card berada di tengah (optional digunakan)
     </div>
   </div>
 ```
+
+&nbsp;
+
+
+## Demo
+{{< link url="/demo/tailwind-simple-card" >}}
+  Show Demo
+{{< /link >}}
 
 &nbsp;
 

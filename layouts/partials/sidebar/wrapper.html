@@ -5,7 +5,7 @@
   <div class="mb-6">
     {{ partial "sidebar/title.html" (dict "title" "Populer Posts" "rotate" true)}}
     <ul class="rounded overflow-hidden">
-      {{ range .Site.RegularPages }}
+      {{ range first 5  .Site.RegularPages }}
         {{- partial "sidebar/list-article.html" . -}}
       {{end}}
     </ul>

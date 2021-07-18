@@ -19,6 +19,7 @@
       </p>
     </div>
   </header>
+  
   {{ if isset .Params "thumbnail"}}
   <img
     id="thumbnail"
@@ -28,7 +29,6 @@
     onerror="imageNotRender()"
   />
   {{end}}
-  
 
   {{- partial "toc.html" . -}}
 
