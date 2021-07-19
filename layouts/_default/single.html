@@ -23,7 +23,7 @@
   {{ if isset .Params "thumbnail"}}
   <img
     id="thumbnail"
-    class="rounded"
+    class="rounded w-full"
     src="{{ .Params.thumbnail }}" 
     alt="{{.Title}}"
     onerror="imageNotRender()"
