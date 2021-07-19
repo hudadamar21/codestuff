@@ -18,7 +18,7 @@
     <ul class="rounded overflow-hidden">
       {{ range $key, $value := .Site.Taxonomies.categories }}
         <li class="border-b border-white dark:border-fs-gray last:border-none">
-          <a href="{{ `/` | relLangURL}}{{ $key | urlize }}"
+          <a href="{{ `/categories/` | relLangURL}}{{ $key | urlize }}"
             class="
             block relative w-full h-[max-content]
             cursor-pointer overflow-hidden transition
@@ -36,12 +36,13 @@
       {{ end }}
     </ul>
   </div>
+
   <div>
     {{ partial "sidebar/title.html" (dict "title" "Tags")}}
     <ul class="rounded overflow-hidden p-4 flex items-center gap-2">
       {{ range $key, $value := .Site.Taxonomies.tags }}
         <li class="border-b border-white dark:border-fs-gray last:border-none">
-          <a href="{{ `/` | relLangURL}}{{ $key | urlize }}"
+          <a href="{{ `/tags/` | relLangURL}}{{ $key | urlize }}"
             class="
               border-2 border-second dark:border-primary
               hover:bg-second dark:hover:bg-primary 
