@@ -31,6 +31,7 @@ Jika kalian tidak tahu atau belum menggunakan tailwindcss, kalian dapat akses li
 {{< /link >}}
 
 &nbsp;
+{{< iklan >}}
 
 ### Wrapper
 Wrapper ini untuk membungkus skeleton loading (optional untuk digunakan)

@@ -23,6 +23,7 @@ Jika kalian tidak tahu atau belum menggunakan tailwindcss, kalian dapat akses li
 {{< /link >}}
 
 &nbsp;
+{{< iklan >}}
 
 ### Wrapper
 wrapper untuk membungkus card agar card berada di tengah (optional digunakan)

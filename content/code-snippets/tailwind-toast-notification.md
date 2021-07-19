@@ -23,6 +23,7 @@ Jika kalian tidak tahu atau belum menggunakan tailwindcss, kalian dapat akses li
 {{< /link >}}
 
 &nbsp;
+{{< iklan >}}
 
 ### Wrapper
 wrapper ini akan menempatkan toast notification pada pojok atas kanan layar.

@@ -1,7 +1,9 @@
 <div class="bg-white dark:bg-fs-gray transition shadow-md px-5 md:ml-5 py-10 mt-5 rounded">
+
   <div>
     {{- partial "sidebar/search-input.html" . -}}
   </div>
+
   <div class="mb-6">
     {{ partial "sidebar/title.html" (dict "title" "Populer Posts" "rotate" true)}}
     <ul class="rounded overflow-hidden">
@@ -10,6 +12,7 @@
       {{end}}
     </ul>
   </div>
+
   <div>
     {{ partial "sidebar/title.html" (dict "title" "Category")}}
     <ul class="rounded overflow-hidden">
@@ -33,4 +36,13 @@
       {{ end }}
     </ul>
   </div>
+  <amp-ad width="100vw" height="320"
+      type="adsense"
+      data-ad-client="ca-pub-1844158005089974"
+      data-ad-slot="8713179793"
+      data-auto-format="rspv"
+      data-full-width="">
+    <div overflow=""></div>
+  </amp-ad>
+
 </div>

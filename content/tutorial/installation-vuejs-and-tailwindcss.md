@@ -47,6 +47,8 @@ Kalian bisa lihat penjelasannya lengkapnya disini:
 
 Dengan menggunakan Vitejs kalian dapat menjalankan server dengan sangat cepat hanya beberapa detik dan dependencies yang terinclude hanya sedikit jadi lebih hemat untuk penyimpanan.
 
+{{< iklan >}}
+
 &nbsp;
 ### Init Vitejs App
 
@@ -186,6 +188,8 @@ export default {
 
 jika tampilkan kalian seperti ini, berarti tailwindcss sudah bisa digunakan. congrats!! :D
 ![firstlook-tailwind](/images/tutorial/firstlook-tailwind.png)
+
+{{< iklan >}}
 
 &nbsp;
 ## Kesimpulan

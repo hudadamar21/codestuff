@@ -24,6 +24,10 @@ Jika kalian tidak tahu atau belum menggunakan tailwindcss, kalian dapat akses li
 
 &nbsp;
 
+{{< iklan >}}
+
+&nbsp;
+
 ## Tailwind Navigation
 ```html
   <div class="bg-white md:w-12/12 h-16 shadow-md flex justify-between items-center flex-col md:flex-row md:rounded md:m-3">
@@ -65,6 +69,8 @@ Jika kalian tidak tahu atau belum menggunakan tailwindcss, kalian dapat akses li
 {{< /link >}}
 
 &nbsp;
+
+{{< iklan >}}
 
 ## Video Tutorial
 {{< youtube id="ehuMq4JiYgQ" >}}

@@ -24,6 +24,11 @@ Jika kalian tidak tahu atau belum menggunakan tailwindcss, kalian dapat akses li
 
 &nbsp;
 
+{{< iklan >}}
+
+&nbsp;
+
+
 ### Login Page
 
 ```html
@@ -67,6 +72,8 @@ Jika kalian tidak tahu atau belum menggunakan tailwindcss, kalian dapat akses li
 {{< /link >}}
 
 &nbsp;
+
+{{< iklan >}}
 
 ## Video Tutorial
 {{< youtube id="DdzwjUJN_IM" >}}
