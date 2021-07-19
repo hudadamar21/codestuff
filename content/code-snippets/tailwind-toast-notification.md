@@ -119,7 +119,5 @@ versi 1 ini digunakan ketika ada notification error
 
 &nbsp;
 
-### Repo untuk toast notification yang
-
 ## Video Tutorial
 {{< youtube id="fTHUz-Cs9n8" >}}

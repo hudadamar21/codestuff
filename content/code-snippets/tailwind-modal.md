@@ -24,7 +24,7 @@ Jika kalian tidak tahu atau belum menggunakan tailwindcss, kalian dapat akses li
 
 &nbsp;
 
-## Tailwind Modal
+### Modal
 ```html
 <div class="modal h-screen w-full fixed left-0 top-0 flex justify-center items-center bg-black bg-opacity-50 hidden">
     <!-- modal -->

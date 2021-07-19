@@ -3,7 +3,7 @@ title: "Tailwind Skeleton Loading"
 date: 2021-07-19T18:52:36+07:00
 description: "Membuat skeleton loading menggunakan tailwindcss"
 draft: false
-toc: false
+toc: true
 keyword: [tailwindcss, code-snippets, website, loading]
 thumbnail: "/images/code-snippets/tailwind-skeleton-loading.jpg"
 tags: [tailwindcss]

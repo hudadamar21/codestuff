@@ -50,7 +50,7 @@
     <h3 class="font-medium text-2xl mb-3">Related Posts</h3>
     <ul class="pl-5">
       {{ range . }}
-      <li class="text-lg">- <a class="hover:underline" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      <li>- <a class="hover:underline" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
       {{ end }}
     </ul>
     {{ end }}

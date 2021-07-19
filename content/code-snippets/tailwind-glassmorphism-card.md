@@ -16,7 +16,7 @@ Hei stuffer kali ini saya ingin share code snippet Tailwind Glassmorphism Card
 
 &nbsp;
 
-## Wrapper
+### Wrapper
 
 ```html
 <div class="bg-image w-full min-h-screen flex flex-wrap justify-center items-center gap-3">
@@ -26,7 +26,7 @@ Hei stuffer kali ini saya ingin share code snippet Tailwind Glassmorphism Card
 </div>
 ```
 
-## Glassmorphism Card
+### Glassmorphism Card
 ```html
 <div class="backdrop w-10/12 md:w-1/4 bg-white bg-opacity-10 rounded p-3 text-white border border-gray-300 shadow-lg">
   <!-- header -->
@@ -46,7 +46,7 @@ Hei stuffer kali ini saya ingin share code snippet Tailwind Glassmorphism Card
 </div>
 ```
 
-## Style CSS
+### Style CSS
 ```css
 .bg-image {
   background-image: url(./image/bg00.jpg);

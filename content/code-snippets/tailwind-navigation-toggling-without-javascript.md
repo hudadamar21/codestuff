@@ -36,7 +36,7 @@ Jika kalian tidak tahu atau belum menggunakan tailwindcss, kalian dapat akses li
 
 &nbsp;
 
-## Navigation Toggling Without Javascript
+### Navigation Toggling Without Javascript
 ```html
 <nav class="fixed top-0 left-0 bg-white w-full shadow">
   <div class="container m-auto flex justify-between items-center text-gray-700">

@@ -16,7 +16,7 @@ Hei stuffer kali ini saya ingin share code snippet Tailwind Contact Form
 
 &nbsp;
 
-## Tailwind Contact Form
+### Contact Form
 ```html
 <section id="contact" class="relative w-full min-h-screen bg-black text-red-500">
   <h1 class="text-4xl p-4 font-bold tracking-wide">
