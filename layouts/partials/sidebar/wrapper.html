@@ -13,7 +13,7 @@
     </ul>
   </div>
 
-  <div>
+  <div class="mb-6">
     {{ partial "sidebar/title.html" (dict "title" "Category")}}
     <ul class="rounded overflow-hidden">
       {{ range $key, $value := .Site.Taxonomies.categories }}
@@ -31,6 +31,24 @@
                 {{ $key | humanize }} ({{ len $value }})
               </h1>
             </div>
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+  <div>
+    {{ partial "sidebar/title.html" (dict "title" "Tags")}}
+    <ul class="rounded overflow-hidden p-4 flex items-center gap-2">
+      {{ range $key, $value := .Site.Taxonomies.tags }}
+        <li class="border-b border-white dark:border-fs-gray last:border-none">
+          <a href="{{ `/` | relLangURL}}{{ $key | urlize }}"
+            class="
+              border-2 border-second dark:border-primary
+              hover:bg-second dark:hover:bg-primary 
+              text-second hover:text-white dark:text-white
+              px-2 py-1 rounded-md
+            ">
+            {{ $key | humanize }}
           </a>
         </li>
       {{ end }}
