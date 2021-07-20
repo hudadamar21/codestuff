@@ -5,7 +5,7 @@ description: "Membuat Tailwind Awesome Login Page menggunakan tailwindcss"
 draft: false
 toc: true
 keyword: [code-snippets, website]
-thumbnail: "/images/code-snippets/"
+thumbnail: "/images/code-snippets/tailwind-awesome-login-page.png"
 tags: [tailwindcss]
 categories: ["code-snippets"]
 ---
@@ -24,6 +24,7 @@ Jika kalian tidak tahu atau belum menggunakan tailwindcss, kalian dapat akses li
 
 &nbsp;
 
+{{< iklan >}}
 ### Tailwind Awesome Login Page
 ```html
 <div class="h-screen w-full flex justify-center items-center bg-gradient-to-tr from-blue-900 to-blue-500">

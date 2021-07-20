@@ -1,18 +1,18 @@
 ---
-title: "Tailwind Switch Theme to Darkmode"
+title: "Tailwind Switch to Darkmode"
 date: 2021-07-19T17:49:13+07:00
-description: "Membuat Tailwind Switch Theme to Darkmode menggunakan tailwindcss"
+description: "Membuat Tailwind Switch to Darkmode menggunakan tailwindcss"
 draft: false
 toc: true
 keyword: [code-snippets, website]
-thumbnail: "/images/code-snippets/"
+thumbnail: "/images/code-snippets/tailwind-switch-to-darkmode.png"
 tags: [tailwindcss]
 categories: ["code-snippets"]
 ---
 
-## Code Snippet - Tailwind Switch Theme to Darkmode
+## Code Snippet - Tailwind Switch to Darkmode
 
-Hei stuffer kali ini saya ingin share code snippet Tailwind Switch Theme to Darkmode
+Hei stuffer kali ini saya ingin share code snippet Tailwind Switch to Darkmode
 
 Dark mode adalah tema yang sedang paling digemari sekarang ini.
 
@@ -41,6 +41,7 @@ untuk penjelasan lengkapnya kalian dapat ke website tailwindcss :
 oh iya switch darkmode ini juga saya gunakan pada website ini hehehe..
 
 &nbsp;
+{{< iklan >}}
 
 ### Wrapper
 pada body ini kita akan menempatkan class 'dark' agar darkmode berjalan

@@ -1,36 +1,37 @@
 ---
-title: "Tailwind Live Chat"
+title: "Tailwind Live Chat Support"
 date: 2021-07-19T17:23:22+07:00
-description: "Membuat Tailwind Live Chat menggunakan tailwindcss"
+description: "Membuat Tailwind Live Chat Support menggunakan tailwindcss"
 draft: false
 toc: true
 keyword: [code-snippets, website]
-thumbnail: "/images/code-snippets/"
+thumbnail: "/images/code-snippets/tailwind-live-chat-support.png"
 tags: [tailwindcss]
 categories: ["code-snippets"]
 ---
 
 ## Code Snippet - Tailwind Live Chat
 
-Hei stuffer kali ini saya ingin share code snippet Tailwind Live Chat
+Hei stuffer kali ini saya ingin share code snippet Tailwind Live Chat Support
 
-Apa kalian tahu apa itu Live Chat pada sebuah website?
+Apa kalian tahu apa itu Live Chat Support pada sebuah website?
 
-live chat atau bisa dibilang juga adalah chat support ini diperuntukan untuk consumer yang ingin menanyakan seputar website tersebut.
+live chat support ini diperuntukan untuk consumer yang ingin menanyakan seputar website tersebut atau menanyakan ketika consumer mendapatkan kesulitan pada website tersebut.
 
-live chat sangat banyak digunakan di berbagai website modern salah satunya adalah website courses seperti dicoding.
+live chat sangat banyak digunakan di berbagai website modern salah satunya adalah website kursus online seperti dicoding.
 
 &nbsp;
 
 Oh iya live chat disini hanya tampilan saja, yang berarti secara fungsional tidak berjalan.
 
-Ok langsung saja kita buat live chat menggunakan tailwindcss
+Ok langsung saja kita buat live chat support menggunakan tailwindcss
 
 Jika kalian tidak tahu atau belum menggunakan tailwindcss, kalian dapat akses link dibawah ini:
 
 &nbsp;
 
-### Live Chat
+{{< iklan >}}
+### Live Chat Support
 ```html
 <div class="fixed bottom-0 right-0 flex flex-col items-end ml-6 w-full">
   <!-- chat modal -->

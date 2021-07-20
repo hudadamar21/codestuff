@@ -5,7 +5,7 @@ description: "Membuat Tailwind Navigation Toggling Without Javascript menggunaka
 draft: false
 toc: true
 keyword: [code-snippets, website]
-thumbnail: "/images/code-snippets/"
+thumbnail: "/images/code-snippets/tailwind-navigation-toggling-without-javascript.png"
 tags: [tailwindcss]
 categories: ["code-snippets"]
 ---
@@ -36,6 +36,7 @@ Jika kalian tidak tahu atau belum menggunakan tailwindcss, kalian dapat akses li
 
 &nbsp;
 
+{{< iklan >}}
 ### Navigation Toggling Without Javascript
 ```html
 <nav class="fixed top-0 left-0 bg-white w-full shadow">

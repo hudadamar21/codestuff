@@ -1,11 +1,11 @@
 ---
-title: "Installation Vuejs dan Tailwindcss"
+title: "Instalasi Vuejs dan Tailwindcss"
 description: "Pada tahap ini kalian akan menginstall vuejs dan tailwindcss dengan melakukan setup keseluruhan stuff stuff sampai website dapat ditampilkan."
-date: 2021-07-10T08:56:15+07:00
+date: 2021-07-20T20:19:50+07:00
 draft: false
 toc: true
 keyword: [tutorial, vuejs, tailwindcss]
-thumbnail: "https://firebasestorage.googleapis.com/v0/b/saxtile.appspot.com/o/68eV1uG7dtXIzJ3lNqNphaT23op1%2FInstallation%20Tailwindcss%20jit%20m.png?alt=media&token=61d3848f-2710-45f5-8f0c-6cd6d646ae30"
+thumbnail: "/images/tutorial/instalasi-vuejs-dan-tailwindcss.png"
 tags: [vuejs, tailwindcss]
 categories: [tutorial]
 ---

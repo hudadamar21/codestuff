@@ -1,22 +1,31 @@
 ---
-title: "Tailwind Contact Form"
+title: "Tailwind Contact Page"
 date: 2021-07-19T17:40:05+07:00
-description: "Membuat Tailwind Contact Form menggunakan tailwindcss"
+description: "Membuat Tailwind Contact Page menggunakan tailwindcss"
 draft: false
 toc: true
 keyword: [code-snippets, website]
-thumbnail: "/images/code-snippets/"
+thumbnail: "/images/code-snippets/tailwind-contact-page.png"
 tags: [tailwindcss]
 categories: ["code-snippets"]
 ---
 
-## Code Snippet - Tailwind Contact Form
+## Code Snippet - Tailwind Contact Page
 
-Hei stuffer kali ini saya ingin share code snippet Tailwind Contact Form
+Hei stuffer kali ini saya ingin share code snippet Tailwind Contact Page
+
+Ok langsung saja kita buat menggunakan tailwindcss
+
+Jika kalian tidak tahu atau belum menggunakan tailwindcss, kalian dapat akses link dibawah ini:
+
+{{< link url="https://tailwindcss.com" >}}
+  https://tailwindcss.com
+{{< /link >}}
 
 &nbsp;
 
-### Contact Form
+{{< iklan >}}
+### Contact Page
 ```html
 <section id="contact" class="relative w-full min-h-screen bg-black text-red-500">
   <h1 class="text-4xl p-4 font-bold tracking-wide">

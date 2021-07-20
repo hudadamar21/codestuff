@@ -61,13 +61,5 @@ wrapper untuk membungkus card agar card berada di tengah (optional digunakan)
 
 &nbsp;
 
-
-## Demo
-{{< link url="/demo/tailwind-simple-card" >}}
-  Show Demo
-{{< /link >}}
-
-&nbsp;
-
 ## Video Tutorial
 {{< youtube id="1B8r42x8QbM" >}}

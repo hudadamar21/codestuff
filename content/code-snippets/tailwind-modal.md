@@ -5,7 +5,7 @@ description: "Membuat Tailwind Modal menggunakan tailwindcss"
 draft: false
 toc: true
 keyword: [code-snippets, website]
-thumbnail: "/images/code-snippets/"
+thumbnail: "/images/code-snippets/tailwind-modal.png"
 tags: [tailwindcss]
 categories: ["code-snippets"]
 ---
@@ -23,7 +23,7 @@ Jika kalian tidak tahu atau belum menggunakan tailwindcss, kalian dapat akses li
 {{< /link >}}
 
 &nbsp;
-
+{{< iklan >}}
 ### Modal
 ```html
 <div class="modal h-screen w-full fixed left-0 top-0 flex justify-center items-center bg-black bg-opacity-50 hidden">

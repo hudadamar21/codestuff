@@ -26,8 +26,6 @@ Jika kalian tidak tahu atau belum menggunakan tailwindcss, kalian dapat akses li
 
 {{< iklan >}}
 
-&nbsp;
-
 ### Navigation
 ```html
   <div class="bg-white md:w-12/12 h-16 shadow-md flex justify-between items-center flex-col md:flex-row md:rounded md:m-3">
@@ -60,13 +58,6 @@ Jika kalian tidak tahu atau belum menggunakan tailwindcss, kalian dapat akses li
     </ul>
   </div> 
 ```
-
-&nbsp;
-
-## Demo
-{{< link url="/demo/tailwind-navigation" >}}
-  Show Demo
-{{< /link >}}
 
 &nbsp;
 

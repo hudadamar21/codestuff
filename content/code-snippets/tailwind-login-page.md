@@ -25,10 +25,6 @@ Jika kalian tidak tahu atau belum menggunakan tailwindcss, kalian dapat akses li
 &nbsp;
 
 {{< iklan >}}
-
-&nbsp;
-
-
 ### Login Page
 
 ```html
@@ -63,13 +59,6 @@ Jika kalian tidak tahu atau belum menggunakan tailwindcss, kalian dapat akses li
     </div>
   </div>
 ```
-
-&nbsp;
-
-## Demo
-{{< link url="/code-snippets/tailwind-login-page/demo" >}}
-  Show Demo
-{{< /link >}}
 
 &nbsp;
 

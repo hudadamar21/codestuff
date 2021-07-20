@@ -5,7 +5,7 @@ description: "Membuat Tailwind Buttons menggunakan tailwindcss"
 draft: false
 toc: true
 keyword: [code-snippets, website]
-thumbnail: "/images/code-snippets/"
+thumbnail: "/images/code-snippets/tailwind-buttons.png"
 tags: [tailwindcss]
 categories: ["code-snippets"]
 ---
@@ -14,8 +14,17 @@ categories: ["code-snippets"]
 
 Hei stuffer kali ini saya ingin share code snippet Tailwind Buttons
 
+Ok langsung saja kita buat menggunakan tailwindcss
+
+Jika kalian tidak tahu atau belum menggunakan tailwindcss, kalian dapat akses link dibawah ini:
+
+{{< link url="https://tailwindcss.com" >}}
+  https://tailwindcss.com
+{{< /link >}}
+
 &nbsp;
 
+{{< iklan >}}
 ### Basic Button
 ```html
 
@@ -165,7 +174,6 @@ Hei stuffer kali ini saya ingin share code snippet Tailwind Buttons
   </button>
   
 ```
-
 
 &nbsp;
 

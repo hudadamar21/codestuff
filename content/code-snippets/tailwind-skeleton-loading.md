@@ -125,12 +125,5 @@ Pada style css ini berguna untuk memberikan animasi splash yang bergerak dari ki
 
 &nbsp;
 
-## Demo
-{{< link url="/demo/tailwind-skeleton-loading" >}}
-  Show Demo
-{{< /link >}}
-
-&nbsp;
-
 ## Video Tutorial
 {{< youtube id="MwlGNXU1JPU" >}}
