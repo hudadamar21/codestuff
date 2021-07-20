@@ -25,7 +25,7 @@ Jika kalian tidak tahu atau belum menggunakan tailwindcss, kalian dapat akses li
 &nbsp;
 
 {{< iklan >}}
-### Tailwind Awesome Login Page
+### Awesome Login Page
 ```html
 <div class="h-screen w-full flex justify-center items-center bg-gradient-to-tr from-blue-900 to-blue-500">
   <div class="bg-image w-full sm:w-1/2 md:w-9/12 lg:w-1/2 mx-3 md:mx-5 lg:mx-0 shadow-md flex flex-col md:flex-row items-center rounded z-10 overflow-hidden bg-center bg-cover bg-blue-600">
@@ -68,6 +68,16 @@ Jika kalian tidak tahu atau belum menggunakan tailwindcss, kalian dapat akses li
     </div>
   </div>
 </div>
+```
+
+### Styles css
+```css
+.bg-image {
+  background-image: url(./bg-image.webp);
+}
+.backdrop {
+  backdrop-filter: blur(2px);
+}
 ```
 
 &nbsp;
