@@ -7,7 +7,7 @@ toc: true
 keyword: [code-snippets, website]
 thumbnail: "/images/code-snippets/tailwind-switch-to-darkmode.png"
 tags: [tailwindcss]
-categories: ["code-snippets"]
+categories: [code-snippets]
 ---
 
 ## Code Snippet - Tailwind Switch to Darkmode

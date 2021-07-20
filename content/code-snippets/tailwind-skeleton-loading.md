@@ -5,7 +5,7 @@ description: "Membuat skeleton loading menggunakan tailwindcss"
 draft: false
 toc: true
 keyword: [tailwindcss, code-snippets, website, loading]
-thumbnail: "/images/code-snippets/tailwind-skeleton-loading.jpg"
+thumbnail: "/images/code-snippets/tailwind-skeleton-loading.png"
 tags: [tailwindcss]
 categories: [code-snippets]
 ---

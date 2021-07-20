@@ -7,7 +7,7 @@ toc: true
 keyword: [code-snippets, website]
 thumbnail: "/images/code-snippets/tailwind-awesome-login-page.png"
 tags: [tailwindcss]
-categories: ["code-snippets"]
+categories: [code-snippets]
 ---
 
 ## Code Snippet - Tailwind Awesome Login Page

@@ -7,7 +7,7 @@ toc: true
 keyword: [code-snippets, website]
 thumbnail: "/images/code-snippets/tailwind-glassmorphism-card.png"
 tags: [tailwindcss]
-categories: ["code-snippets"]
+categories: [code-snippets]
 ---
 
 ## Code Snippet - Tailwind Glassmorphism Card

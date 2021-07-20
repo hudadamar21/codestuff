@@ -6,8 +6,8 @@ draft: false
 toc: true
 keyword: [code-snippets, website]
 thumbnail: "/images/code-snippets/tailwind-profile-card.png"
-tags: []
-categories: ["code-snippets"]
+tags: [tailwindcss]
+categories: [code-snippets]
 ---
 
 ## Code Snippet - Tailwind Profile Card
